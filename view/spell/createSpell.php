@@ -10,9 +10,9 @@
 			<select name="spell_type">
 				<option value="Normal">Normal</option>
 				<option value="Quick">Quick</option>
-				<option value="continuous">continuous</option>	
+				<option value="Continuous">Continuous</option>	
 				<option value="Equip">Equip</option>
-				<option value="ritual">ritual</option>
+				<option value="Ritual">Ritual</option>
 			</select>
 
 			<p>Description</p><textarea maxlength="500" rows="12" type="text" name="spell_description" class="inputtext3"></textarea> <br>

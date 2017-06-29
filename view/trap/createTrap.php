@@ -9,8 +9,8 @@
 			<p>Type</p>
 			<select name="trap_type">
 				<option value="Normal">Normal</option>
-				<option value="continuous">continuous</option>	
-				<option value="counter">counter</option>
+				<option value="Continuous">Continuous</option>	
+				<option value="Counter">Counter</option>
 			</select>
 
 			<p>Description</p><textarea maxlength="500" rows="12" type="text" name="trap_description" class="inputtext3"></textarea> <br>

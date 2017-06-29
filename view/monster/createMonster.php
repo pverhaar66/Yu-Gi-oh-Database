@@ -25,7 +25,7 @@
 				<option value="Creator God">Creator God</option>
 				<option value="Cyverse">Cyverse</option>
 				<option value="Dinosaur">Dinosaur</option>
-				<option value="Divine Beast">Divine Beast</option>
+				<option value="Divine Beast">Divine-sBeast</option>
 				<option value="Dragon">Dragon</option>
 				<option value="Fairy">Fairy</option>
 				<option value="Fiend">Fiend</option>
@@ -38,7 +38,7 @@
 				<option value="Reptile">Reptile</option>
 				<option value="Rock">Rock</option>
 				<option value="Sea Serpent">Sea Serpent</option>
-				<option value="Spellcaster">spellcaster</option>
+				<option value="Spellcaster">Spellcaster</option>
 				<option value="Thunder">Thunder</option>
 				<option value="Warrior">Warrior</option>
 				<option value="Winged Beast">Winged Beast</option>
@@ -48,26 +48,26 @@
 
 			<select name="monster_type2">
 				<option value=" "> </option>
-				<option value="effect">effect</option>
-				<option value="tuner">Tuner</option>
-				<option value="xyz">xyz</option>
-				<option value="fusion">fusion</option>
-				<option value="synchro">synchro</option>
-				<option value="pendalum">pendalum</option>
-				<option value="gemini">gemini</option>
-				<option value="ritual">ritual</option>
+				<option value="Effect">Effect</option>
+				<option value="Tuner">Tuner</option>
+				<option value="Xyz">Xyz</option>
+				<option value="Fusion">Fusion</option>
+				<option value="Synchro">Synchro</option>
+				<option value="Pendulum">Pendulum</option>
+				<option value="Gemini">Gemini</option>
+				<option value="Ritual">Ritual</option>
 			</select>
 
 			<select name="monster_type3">
 				<option value=" "> </option>
-				<option value="effect">effect</option>
-				<option value="pendalum">Pendalum</option>
-				<option value="ritual">ritual</option>
+				<option value="Effect">Effect</option>
+				<option value="Pendalum">Pendalum</option>
+				<option value="Ritual">Ritual</option>
 			</select>
 
 			<select name="monster_type4">
 				<option value=" "> </option>
-				<option value="effect">effect</option>
+				<option value="Effect">Effect</option>
 			</select>
 
 

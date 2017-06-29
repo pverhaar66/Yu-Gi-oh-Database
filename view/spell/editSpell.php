@@ -12,9 +12,9 @@
 				<?php
 				$type = array("Normal" => "Normal",
 				"Quick" => "Quick",
-				"continuous" => "continuous",
+				"Continuous" => "Continuous",
 				"Equip" => "Equip",
-				"ritual" => "ritual"); 
+				"Ritual" => "Ritual"); 
 				
 				foreach ($type as $type) { 
 				?>

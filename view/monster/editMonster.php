@@ -31,7 +31,7 @@
 					</option>
 					<?php	} ?>
 				</select>
-
+				<!-- $type gets its names from the assositive array -->
 
 				<p>Type</p>
 				<select name="monster_type1">
@@ -42,7 +42,7 @@
 				"Creator God" => "Creator God",
 				"Cyverse" => "Cyverse",
 				"Dinosaur" => "Dinosaur",
-				"Divine Beast" => "Divine Beast",
+				"Divine Beast" => "Divine-Beast",
 				"Dragon" => "Dragon",
 				"Fairy" => "Fairy",
 				"Fiend" => "Aqua",
@@ -82,15 +82,15 @@
 				<select name="monster_type2">
 				<?php
 				$typeii = array(" " => " ",
-				"effect" => "effect",
-				"tuner" => "tuner",
-				"ritual" => "ritual",
+				"Effect" => "Effect",
+				"Tuner" => "Tuner",
+				"Ritual" => "Ritual",
 				"Fusion" => "Fusion",
-				"xyz" => "xyz",
-				"synchro" => "synchro",
-				"pendalum" => "pendalum",
-				"gemini" => "gemini",
-				"flip" => "flip");
+				"Xyz" => "Xyz",
+				"Synchro" => "Synchro",
+				"Pendulum" => "Pendulum",
+				"Gemini" => "Gemini",
+				"Flip" => "Flip");
 				
 				foreach ($typeii as $type2) { 
 				?>
@@ -109,10 +109,10 @@
 				<select name="monster_type3">
 				<?php
 				$typeiii = array(" " => " ",
-				"effect" => "effect",
-				"tuner" => "tuner",
-				"pendalum" => "pendalum",
-				"gemini" => "gemini");
+				"Effect" => "Effect",
+				"Tuner" => "Tuner",
+				"pendelum" => "Pendelum",
+				"Gemini" => "Gemini");
 				
 				
 				foreach ($typeiii as $type3) { 
@@ -132,7 +132,7 @@
 				<select name="monster_type4">
 				<?php
 				$typeiv = array(" " => " ",
-				"effect" => "effect");
+				"Effect" => "Effect");
 				
 				
 				

@@ -11,8 +11,8 @@
 				<select name="trap_type">
 				<?php
 				$type = array("Normal" => "Normal",
-				"counter" => "Counter",
-				"continuous" => "Continuous"); 
+				"Counter" => "Counter",
+				"Continuous" => "Continuous"); 
 				
 				foreach ($type as $type) { 
 				?>
@@ -27,7 +27,7 @@
 					</option>
 					<?php	} ?>
 				</select>
-
+				<!-- $type gets its names from the assositive array -->
 				<p>Description</p><textarea maxlength="1000" rows="10" type="text" name="trap_description" class="inputtext3"> <?= $trap['trap_description']; ?> </textarea> <br>
 
 				<input type="hidden" value="<?= $trap['trap_id']; ?>" name="trap_id" class="inputtext" > <br>
